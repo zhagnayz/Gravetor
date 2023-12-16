@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661968B27AC507B2A3195E06 /* Pods_GravetonDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E76D12589FD053BBCD5BBF /* Pods_GravetonDriver.framework */; };
+		A21280622B16880F00C364AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21280612B16880F00C364AC /* Extensions.swift */; };
+		A22026922A2E87C3002029B4 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22026912A2E87C3002029B4 /* Testing.swift */; };
+		A221615F29AC175F002893EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221615E29AC175F002893EC /* AppDelegate.swift */; };
+		A221616129AC175F002893EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221616029AC175F002893EC /* SceneDelegate.swift */; };
+		A221616329AC175F002893EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221616229AC175F002893EC /* ViewController.swift */; };
+		A221616829AC1761002893EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A221616729AC1761002893EC /* Assets.xcassets */; };
+		A221616B29AC1761002893EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A221616929AC1761002893EC /* LaunchScreen.storyboard */; };
+		A221617629AC1762002893EC /* GravetonDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221617529AC1762002893EC /* GravetonDriverTests.swift */; };
+		A221618029AC1762002893EC /* GravetonDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221617F29AC1762002893EC /* GravetonDriverUITests.swift */; };
+		A221618229AC1762002893EC /* GravetonDriverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221618129AC1762002893EC /* GravetonDriverUITestsLaunchTests.swift */; };
+		A221618F29AC1D8F002893EC /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221618E29AC1D8F002893EC /* DropViewController.swift */; };
+		A221619129AC1D98002893EC /* PickUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221619029AC1D98002893EC /* PickUpViewController.swift */; };
+		A221619329AC1E7E002893EC /* DriverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221619229AC1E7E002893EC /* DriverCell.swift */; };
+		A221619529AC1FE5002893EC /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221619429AC1FE5002893EC /* CardViewController.swift */; };
+		A221619829AC205B002893EC /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221619729AC205B002893EC /* Pose.swift */; };
+		A221619E29AC218A002893EC /* DropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221619D29AC218A002893EC /* DropCell.swift */; };
+		A22161A229AC21D0002893EC /* ClientInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161A129AC21D0002893EC /* ClientInfoCell.swift */; };
+		A22161A429AC21EE002893EC /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161A329AC21EE002893EC /* SideMenuCell.swift */; };
+		A22161B229AC26D0002893EC /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161B129AC26D0002893EC /* TaskViewController.swift */; };
+		A22161B429AC26FA002893EC /* TaskHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161B329AC26FA002893EC /* TaskHistoryViewController.swift */; };
+		A22161B829AC27CB002893EC /* TaskHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161B729AC27CB002893EC /* TaskHistoryCell.swift */; };
+		A22161C029AC2971002893EC /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161BF29AC2971002893EC /* HeaderReusableView.swift */; };
+		A22161C429AC2BB5002893EC /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161C329AC2BB5002893EC /* SideMenuViewController.swift */; };
+		A22161C829AC2CBE002893EC /* DriverProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161C729AC2CBE002893EC /* DriverProfileViewController.swift */; };
+		A22161CC29AC4B1F002893EC /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161CB29AC4B1F002893EC /* ButtonCell.swift */; };
+		A22161CE29AC4B78002893EC /* IconMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161CD29AC4B78002893EC /* IconMenu.swift */; };
+		A22161D029AC5949002893EC /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22161CF29AC5949002893EC /* AccountCell.swift */; };
+		A24857242A7ED807006E68C1 /* BankInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24857232A7ED807006E68C1 /* BankInfoViewController.swift */; };
+		A24857262A7F30DF006E68C1 /* Earns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24857252A7F30DF006E68C1 /* Earns.swift */; };
+		A24A95022AE0881A00D626C0 /* ButtonPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24A95012AE0881A00D626C0 /* ButtonPanelView.swift */; };
+		A24A95042AE088C400D626C0 /* PickOrDeliveryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24A95032AE088C400D626C0 /* PickOrDeliveryButton.swift */; };
+		A26925782B03E68C00C1EAB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26925772B03E68C00C1EAB0 /* GoogleService-Info.plist */; };
+		A26FCF6E2A5A0F61008D2B5C /* HeaderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FCF6D2A5A0F61008D2B5C /* HeaderInfoView.swift */; };
+		A27611B929CA7C8C00596921 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27611B829CA7C8C00596921 /* RedViewController.swift */; };
+		A27D54DE2A356EAA00AF3B2D /* TestingSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D54DD2A356EAA00AF3B2D /* TestingSpinnerView.swift */; };
+		A28178042AC6523400BA4A12 /* OneStringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28178032AC6523400BA4A12 /* OneStringCell.swift */; };
+		A28832D82AF1E23F00A29BC8 /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28832D72AF1E23F00A29BC8 /* Policy.swift */; };
+		A2886D8D2ADF666800B635F0 /* DriverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2886D8C2ADF666800B635F0 /* DriverInfo.swift */; };
+		A2A088CB29DBB2BA00045EEF /* ProfilePersonInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A088CA29DBB2BA00045EEF /* ProfilePersonInfoCell.swift */; };
+		A2A088CD29DBB66500045EEF /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A088CC29DBB66500045EEF /* TextFieldCell.swift */; };
+		A2A989A129AD39380069B11A /* TaskDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989A029AD39380069B11A /* TaskDetailsCell.swift */; };
+		A2A989A329AD52880069B11A /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989A229AD52880069B11A /* OrderDetailsViewController.swift */; };
+		A2A989A529AD62480069B11A /* ReceiptToCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989A429AD62480069B11A /* ReceiptToCell.swift */; };
+		A2A989A729AD628A0069B11A /* PriceDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989A629AD628A0069B11A /* PriceDetailsCell.swift */; };
+		A2A989A929AD62BB0069B11A /* CartMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989A829AD62BB0069B11A /* CartMenuItemCell.swift */; };
+		A2A989AB29AD638C0069B11A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989AA29AD638C0069B11A /* Order.swift */; };
+		A2A989AD29AD63AD0069B11A /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A989AC29AD63AD0069B11A /* OrderItem.swift */; };
+		A2AF303B2AE220E00054D934 /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF303A2AE220E00054D934 /* AppDataManager.swift */; };
+		A2B243CB2A26DB790021D236 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B243CA2A26DB790021D236 /* SectionHeader.swift */; };
+		A2CEF4FC2A0B254100718BBF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CEF4FB2A0B254100718BBF /* RegisterViewController.swift */; };
+		A2D8C30E29D21B4C00352095 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8C30D29D21B4C00352095 /* PushNotification.swift */; };
+		A2D8C31029D21BB100352095 /* CircleArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8C30F29D21BB100352095 /* CircleArrow.swift */; };
+		A2D8C31229D3A34300352095 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8C31129D3A34300352095 /* User.swift */; };
+		A2D8C31429D3A37E00352095 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8C31329D3A37E00352095 /* PersonInfo.swift */; };
+		A2D8C31629D3A3B400352095 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8C31529D3A3B400352095 /* Address.swift */; };
+		A2DF42E629C2BFE0003EFD48 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DF42E529C2BFE0003EFD48 /* LocationManager.swift */; };
+		A2E92F792AE88DDE004A5C9A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E92F782AE88DDE004A5C9A /* Notification.swift */; };
+		A2E92F7B2AE8A843004A5C9A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E92F7A2AE8A843004A5C9A /* Extension.swift */; };
+		A2ED6D9729B6858F004A1D58 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED6D9629B6858F004A1D58 /* CameraManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A221617229AC1762002893EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A221615329AC175F002893EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A221615A29AC175F002893EC;
+			remoteInfo = GravetonDriver;
+		};
+		A221617C29AC1762002893EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A221615329AC175F002893EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A221615A29AC175F002893EC;
+			remoteInfo = GravetonDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2FE3D0429AECDC200070341 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C33584E54357CED5F643246 /* Pods-GravetonDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravetonDriver.release.xcconfig"; path = "Target Support Files/Pods-GravetonDriver/Pods-GravetonDriver.release.xcconfig"; sourceTree = "<group>"; };
+		1DE9F977FC4876C1E9FA484B /* Pods-GravetonDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravetonDriver.debug.xcconfig"; path = "Target Support Files/Pods-GravetonDriver/Pods-GravetonDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		92E76D12589FD053BBCD5BBF /* Pods_GravetonDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravetonDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21280612B16880F00C364AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A22026912A2E87C3002029B4 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		A221615B29AC175F002893EC /* GravetonDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravetonDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A221615E29AC175F002893EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A221616029AC175F002893EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A221616229AC175F002893EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A221616729AC1761002893EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A221616A29AC1761002893EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A221616C29AC1761002893EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A221617129AC1762002893EC /* GravetonDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravetonDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A221617529AC1762002893EC /* GravetonDriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravetonDriverTests.swift; sourceTree = "<group>"; };
+		A221617B29AC1762002893EC /* GravetonDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravetonDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A221617F29AC1762002893EC /* GravetonDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravetonDriverUITests.swift; sourceTree = "<group>"; };
+		A221618129AC1762002893EC /* GravetonDriverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravetonDriverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A221618E29AC1D8F002893EC /* DropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		A221619029AC1D98002893EC /* PickUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpViewController.swift; sourceTree = "<group>"; };
+		A221619229AC1E7E002893EC /* DriverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCell.swift; sourceTree = "<group>"; };
+		A221619429AC1FE5002893EC /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		A221619729AC205B002893EC /* Pose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		A221619D29AC218A002893EC /* DropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropCell.swift; sourceTree = "<group>"; };
+		A22161A129AC21D0002893EC /* ClientInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoCell.swift; sourceTree = "<group>"; };
+		A22161A329AC21EE002893EC /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		A22161B129AC26D0002893EC /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		A22161B329AC26FA002893EC /* TaskHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHistoryViewController.swift; sourceTree = "<group>"; };
+		A22161B729AC27CB002893EC /* TaskHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHistoryCell.swift; sourceTree = "<group>"; };
+		A22161BF29AC2971002893EC /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		A22161C329AC2BB5002893EC /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A22161C729AC2CBE002893EC /* DriverProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileViewController.swift; sourceTree = "<group>"; };
+		A22161CB29AC4B1F002893EC /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		A22161CD29AC4B78002893EC /* IconMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMenu.swift; sourceTree = "<group>"; };
+		A22161CF29AC5949002893EC /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		A24857232A7ED807006E68C1 /* BankInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankInfoViewController.swift; sourceTree = "<group>"; };
+		A24857252A7F30DF006E68C1 /* Earns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earns.swift; sourceTree = "<group>"; };
+		A24A95012AE0881A00D626C0 /* ButtonPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPanelView.swift; sourceTree = "<group>"; };
+		A24A95032AE088C400D626C0 /* PickOrDeliveryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickOrDeliveryButton.swift; sourceTree = "<group>"; };
+		A26925772B03E68C00C1EAB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A26FCF6D2A5A0F61008D2B5C /* HeaderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoView.swift; sourceTree = "<group>"; };
+		A27611B829CA7C8C00596921 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		A27D54DD2A356EAA00AF3B2D /* TestingSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingSpinnerView.swift; sourceTree = "<group>"; };
+		A28178032AC6523400BA4A12 /* OneStringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStringCell.swift; sourceTree = "<group>"; };
+		A28832D72AF1E23F00A29BC8 /* Policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
+		A2886D8C2ADF666800B635F0 /* DriverInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverInfo.swift; sourceTree = "<group>"; };
+		A2A088CA29DBB2BA00045EEF /* ProfilePersonInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePersonInfoCell.swift; sourceTree = "<group>"; };
+		A2A088CC29DBB66500045EEF /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		A2A989A029AD39380069B11A /* TaskDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsCell.swift; sourceTree = "<group>"; };
+		A2A989A229AD52880069B11A /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		A2A989A429AD62480069B11A /* ReceiptToCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptToCell.swift; sourceTree = "<group>"; };
+		A2A989A629AD628A0069B11A /* PriceDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDetailsCell.swift; sourceTree = "<group>"; };
+		A2A989A829AD62BB0069B11A /* CartMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMenuItemCell.swift; sourceTree = "<group>"; };
+		A2A989AA29AD638C0069B11A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A2A989AC29AD63AD0069B11A /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		A2AF303A2AE220E00054D934 /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
+		A2B243CA2A26DB790021D236 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		A2CEF4FB2A0B254100718BBF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A2D8C30D29D21B4C00352095 /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		A2D8C30F29D21BB100352095 /* CircleArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleArrow.swift; sourceTree = "<group>"; };
+		A2D8C31129D3A34300352095 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A2D8C31329D3A37E00352095 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
+		A2D8C31529D3A3B400352095 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A2DF42E529C2BFE0003EFD48 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A2E92F782AE88DDE004A5C9A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		A2E92F7A2AE8A843004A5C9A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A2ED6D9629B6858F004A1D58 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A2FE3CF229AEC60600070341 /* GravetonDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GravetonDriver.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A221615829AC175F002893EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661968B27AC507B2A3195E06 /* Pods_GravetonDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221616E29AC1762002893EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221617829AC1762002893EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E248D547D3FF5416D22BE78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DE9F977FC4876C1E9FA484B /* Pods-GravetonDriver.debug.xcconfig */,
+				1C33584E54357CED5F643246 /* Pods-GravetonDriver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A220CF102A7E0CA100AAC081 /* ReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				A22161BF29AC2971002893EC /* HeaderReusableView.swift */,
+				A26FCF6D2A5A0F61008D2B5C /* HeaderInfoView.swift */,
+				A2B243CA2A26DB790021D236 /* SectionHeader.swift */,
+			);
+			path = ReusableView;
+			sourceTree = "<group>";
+		};
+		A221615229AC175F002893EC = {
+			isa = PBXGroup;
+			children = (
+				A221615D29AC175F002893EC /* GravetonDriver */,
+				A221617429AC1762002893EC /* GravetonDriverTests */,
+				A221617E29AC1762002893EC /* GravetonDriverUITests */,
+				A221615C29AC175F002893EC /* Products */,
+				1E248D547D3FF5416D22BE78 /* Pods */,
+				F24E5B207FB22317027B67F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A221615C29AC175F002893EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A221615B29AC175F002893EC /* GravetonDriver.app */,
+				A221617129AC1762002893EC /* GravetonDriverTests.xctest */,
+				A221617B29AC1762002893EC /* GravetonDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A221615D29AC175F002893EC /* GravetonDriver */ = {
+			isa = PBXGroup;
+			children = (
+				A26925772B03E68C00C1EAB0 /* GoogleService-Info.plist */,
+				A2FE3CF229AEC60600070341 /* GravetonDriver.entitlements */,
+				A221615E29AC175F002893EC /* AppDelegate.swift */,
+				A221616029AC175F002893EC /* SceneDelegate.swift */,
+				A221616229AC175F002893EC /* ViewController.swift */,
+				A2CEF4FB2A0B254100718BBF /* RegisterViewController.swift */,
+				A24857232A7ED807006E68C1 /* BankInfoViewController.swift */,
+				A22161B129AC26D0002893EC /* TaskViewController.swift */,
+				A221619029AC1D98002893EC /* PickUpViewController.swift */,
+				A221618E29AC1D8F002893EC /* DropViewController.swift */,
+				A2A989A229AD52880069B11A /* OrderDetailsViewController.swift */,
+				A22161C729AC2CBE002893EC /* DriverProfileViewController.swift */,
+				A27611B829CA7C8C00596921 /* RedViewController.swift */,
+				A22161B329AC26FA002893EC /* TaskHistoryViewController.swift */,
+				A22161C329AC2BB5002893EC /* SideMenuViewController.swift */,
+				A221619429AC1FE5002893EC /* CardViewController.swift */,
+				A220CF102A7E0CA100AAC081 /* ReusableView */,
+				A2DF42E529C2BFE0003EFD48 /* LocationManager.swift */,
+				A2ED6D9629B6858F004A1D58 /* CameraManager.swift */,
+				A2AF303A2AE220E00054D934 /* AppDataManager.swift */,
+				A2D8C30D29D21B4C00352095 /* PushNotification.swift */,
+				A21280612B16880F00C364AC /* Extensions.swift */,
+				A22161CA29AC327C002893EC /* CustomView */,
+				A22161C929AC3240002893EC /* DriverCell */,
+				A221619629AC2048002893EC /* Model */,
+				A221616729AC1761002893EC /* Assets.xcassets */,
+				A2E92F7A2AE8A843004A5C9A /* Extension.swift */,
+				A221616929AC1761002893EC /* LaunchScreen.storyboard */,
+				A221616C29AC1761002893EC /* Info.plist */,
+			);
+			path = GravetonDriver;
+			sourceTree = "<group>";
+		};
+		A221617429AC1762002893EC /* GravetonDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				A221617529AC1762002893EC /* GravetonDriverTests.swift */,
+			);
+			path = GravetonDriverTests;
+			sourceTree = "<group>";
+		};
+		A221617E29AC1762002893EC /* GravetonDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A221617F29AC1762002893EC /* GravetonDriverUITests.swift */,
+				A221618129AC1762002893EC /* GravetonDriverUITestsLaunchTests.swift */,
+			);
+			path = GravetonDriverUITests;
+			sourceTree = "<group>";
+		};
+		A221619629AC2048002893EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8C31329D3A37E00352095 /* PersonInfo.swift */,
+				A28832D72AF1E23F00A29BC8 /* Policy.swift */,
+				A2A989AC29AD63AD0069B11A /* OrderItem.swift */,
+				A2A989AA29AD638C0069B11A /* Order.swift */,
+				A2D8C31129D3A34300352095 /* User.swift */,
+				A2886D8C2ADF666800B635F0 /* DriverInfo.swift */,
+				A22026912A2E87C3002029B4 /* Testing.swift */,
+				A2D8C31529D3A3B400352095 /* Address.swift */,
+				A22161CD29AC4B78002893EC /* IconMenu.swift */,
+				A24857252A7F30DF006E68C1 /* Earns.swift */,
+				A221619729AC205B002893EC /* Pose.swift */,
+				A2E92F782AE88DDE004A5C9A /* Notification.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A22161C929AC3240002893EC /* DriverCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2A088CA29DBB2BA00045EEF /* ProfilePersonInfoCell.swift */,
+				A28178032AC6523400BA4A12 /* OneStringCell.swift */,
+				A2A088CC29DBB66500045EEF /* TextFieldCell.swift */,
+				A221619229AC1E7E002893EC /* DriverCell.swift */,
+				A2A989A429AD62480069B11A /* ReceiptToCell.swift */,
+				A2A989A629AD628A0069B11A /* PriceDetailsCell.swift */,
+				A2A989A829AD62BB0069B11A /* CartMenuItemCell.swift */,
+				A22161CF29AC5949002893EC /* AccountCell.swift */,
+				A22161CB29AC4B1F002893EC /* ButtonCell.swift */,
+				A2A989A029AD39380069B11A /* TaskDetailsCell.swift */,
+				A22161A129AC21D0002893EC /* ClientInfoCell.swift */,
+				A22161A329AC21EE002893EC /* SideMenuCell.swift */,
+				A221619D29AC218A002893EC /* DropCell.swift */,
+				A22161B729AC27CB002893EC /* TaskHistoryCell.swift */,
+			);
+			path = DriverCell;
+			sourceTree = "<group>";
+		};
+		A22161CA29AC327C002893EC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A24A95012AE0881A00D626C0 /* ButtonPanelView.swift */,
+				A24A95032AE088C400D626C0 /* PickOrDeliveryButton.swift */,
+				A2D8C30F29D21BB100352095 /* CircleArrow.swift */,
+				A27D54DD2A356EAA00AF3B2D /* TestingSpinnerView.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		F24E5B207FB22317027B67F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E76D12589FD053BBCD5BBF /* Pods_GravetonDriver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A221615A29AC175F002893EC /* GravetonDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A221618529AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriver" */;
+			buildPhases = (
+				BB3DBA87549334271EE9D667 /* [CP] Check Pods Manifest.lock */,
+				A221615729AC175F002893EC /* Sources */,
+				A221615829AC175F002893EC /* Frameworks */,
+				A221615929AC175F002893EC /* Resources */,
+				A2FE3D0429AECDC200070341 /* Embed Foundation Extensions */,
+				A1EFAB32F33B4AD3A6268F15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravetonDriver;
+			packageProductDependencies = (
+			);
+			productName = GravetonDriver;
+			productReference = A221615B29AC175F002893EC /* GravetonDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A221617029AC1762002893EC /* GravetonDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A221618829AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriverTests" */;
+			buildPhases = (
+				A221616D29AC1762002893EC /* Sources */,
+				A221616E29AC1762002893EC /* Frameworks */,
+				A221616F29AC1762002893EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A221617329AC1762002893EC /* PBXTargetDependency */,
+			);
+			name = GravetonDriverTests;
+			productName = GravetonDriverTests;
+			productReference = A221617129AC1762002893EC /* GravetonDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A221617A29AC1762002893EC /* GravetonDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A221618B29AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriverUITests" */;
+			buildPhases = (
+				A221617729AC1762002893EC /* Sources */,
+				A221617829AC1762002893EC /* Frameworks */,
+				A221617929AC1762002893EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A221617D29AC1762002893EC /* PBXTargetDependency */,
+			);
+			name = GravetonDriverUITests;
+			productName = GravetonDriverUITests;
+			productReference = A221617B29AC1762002893EC /* GravetonDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A221615329AC175F002893EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A221615A29AC175F002893EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A221617029AC1762002893EC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A221615A29AC175F002893EC;
+					};
+					A221617A29AC1762002893EC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A221615A29AC175F002893EC;
+					};
+				};
+			};
+			buildConfigurationList = A221615629AC175F002893EC /* Build configuration list for PBXProject "GravetonDriver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A221615229AC175F002893EC;
+			packageReferences = (
+			);
+			productRefGroup = A221615C29AC175F002893EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A221615A29AC175F002893EC /* GravetonDriver */,
+				A221617029AC1762002893EC /* GravetonDriverTests */,
+				A221617A29AC1762002893EC /* GravetonDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A221615929AC175F002893EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26925782B03E68C00C1EAB0 /* GoogleService-Info.plist in Resources */,
+				A221616B29AC1761002893EC /* LaunchScreen.storyboard in Resources */,
+				A221616829AC1761002893EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221616F29AC1762002893EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221617929AC1762002893EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1EFAB32F33B4AD3A6268F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravetonDriver/Pods-GravetonDriver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravetonDriver/Pods-GravetonDriver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GravetonDriver/Pods-GravetonDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3DBA87549334271EE9D667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravetonDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A221615729AC175F002893EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D8C31029D21BB100352095 /* CircleArrow.swift in Sources */,
+				A2D8C31629D3A3B400352095 /* Address.swift in Sources */,
+				A2D8C30E29D21B4C00352095 /* PushNotification.swift in Sources */,
+				A221616329AC175F002893EC /* ViewController.swift in Sources */,
+				A22161B429AC26FA002893EC /* TaskHistoryViewController.swift in Sources */,
+				A22161A429AC21EE002893EC /* SideMenuCell.swift in Sources */,
+				A2A088CB29DBB2BA00045EEF /* ProfilePersonInfoCell.swift in Sources */,
+				A22161B829AC27CB002893EC /* TaskHistoryCell.swift in Sources */,
+				A2A989A329AD52880069B11A /* OrderDetailsViewController.swift in Sources */,
+				A22161CC29AC4B1F002893EC /* ButtonCell.swift in Sources */,
+				A22161CE29AC4B78002893EC /* IconMenu.swift in Sources */,
+				A28832D82AF1E23F00A29BC8 /* Policy.swift in Sources */,
+				A22161C829AC2CBE002893EC /* DriverProfileViewController.swift in Sources */,
+				A221619529AC1FE5002893EC /* CardViewController.swift in Sources */,
+				A221619E29AC218A002893EC /* DropCell.swift in Sources */,
+				A2A989A929AD62BB0069B11A /* CartMenuItemCell.swift in Sources */,
+				A22161C029AC2971002893EC /* HeaderReusableView.swift in Sources */,
+				A2E92F792AE88DDE004A5C9A /* Notification.swift in Sources */,
+				A221619329AC1E7E002893EC /* DriverCell.swift in Sources */,
+				A221615F29AC175F002893EC /* AppDelegate.swift in Sources */,
+				A2DF42E629C2BFE0003EFD48 /* LocationManager.swift in Sources */,
+				A22161B229AC26D0002893EC /* TaskViewController.swift in Sources */,
+				A221619829AC205B002893EC /* Pose.swift in Sources */,
+				A22026922A2E87C3002029B4 /* Testing.swift in Sources */,
+				A22161A229AC21D0002893EC /* ClientInfoCell.swift in Sources */,
+				A2A989AD29AD63AD0069B11A /* OrderItem.swift in Sources */,
+				A24A95042AE088C400D626C0 /* PickOrDeliveryButton.swift in Sources */,
+				A2AF303B2AE220E00054D934 /* AppDataManager.swift in Sources */,
+				A2E92F7B2AE8A843004A5C9A /* Extension.swift in Sources */,
+				A24857242A7ED807006E68C1 /* BankInfoViewController.swift in Sources */,
+				A2D8C31429D3A37E00352095 /* PersonInfo.swift in Sources */,
+				A2D8C31229D3A34300352095 /* User.swift in Sources */,
+				A26FCF6E2A5A0F61008D2B5C /* HeaderInfoView.swift in Sources */,
+				A2886D8D2ADF666800B635F0 /* DriverInfo.swift in Sources */,
+				A27611B929CA7C8C00596921 /* RedViewController.swift in Sources */,
+				A24857262A7F30DF006E68C1 /* Earns.swift in Sources */,
+				A2A989A529AD62480069B11A /* ReceiptToCell.swift in Sources */,
+				A24A95022AE0881A00D626C0 /* ButtonPanelView.swift in Sources */,
+				A22161D029AC5949002893EC /* AccountCell.swift in Sources */,
+				A2B243CB2A26DB790021D236 /* SectionHeader.swift in Sources */,
+				A221619129AC1D98002893EC /* PickUpViewController.swift in Sources */,
+				A2CEF4FC2A0B254100718BBF /* RegisterViewController.swift in Sources */,
+				A27D54DE2A356EAA00AF3B2D /* TestingSpinnerView.swift in Sources */,
+				A2ED6D9729B6858F004A1D58 /* CameraManager.swift in Sources */,
+				A2A989A129AD39380069B11A /* TaskDetailsCell.swift in Sources */,
+				A221616129AC175F002893EC /* SceneDelegate.swift in Sources */,
+				A28178042AC6523400BA4A12 /* OneStringCell.swift in Sources */,
+				A2A088CD29DBB66500045EEF /* TextFieldCell.swift in Sources */,
+				A2A989A729AD628A0069B11A /* PriceDetailsCell.swift in Sources */,
+				A221618F29AC1D8F002893EC /* DropViewController.swift in Sources */,
+				A2A989AB29AD638C0069B11A /* Order.swift in Sources */,
+				A21280622B16880F00C364AC /* Extensions.swift in Sources */,
+				A22161C429AC2BB5002893EC /* SideMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221616D29AC1762002893EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221617629AC1762002893EC /* GravetonDriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A221617729AC1762002893EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221618229AC1762002893EC /* GravetonDriverUITestsLaunchTests.swift in Sources */,
+				A221618029AC1762002893EC /* GravetonDriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A221617329AC1762002893EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A221615A29AC175F002893EC /* GravetonDriver */;
+			targetProxy = A221617229AC1762002893EC /* PBXContainerItemProxy */;
+		};
+		A221617D29AC1762002893EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A221615A29AC175F002893EC /* GravetonDriver */;
+			targetProxy = A221617C29AC1762002893EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A221616929AC1761002893EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A221616A29AC1761002893EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A221618329AC1762002893EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A221618429AC1762002893EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A221618629AC1762002893EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE9F977FC4876C1E9FA484B /* Pods-GravetonDriver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = GravetonDriver/GravetonDriver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GravetonDriver/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need to access your camera to take photos";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please,allow to use location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow to use location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A221618729AC1762002893EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C33584E54357CED5F643246 /* Pods-GravetonDriver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = GravetonDriver/GravetonDriver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GravetonDriver/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need to access your camera to take photos";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please,allow to use location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please, allow to use location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A221618929AC1762002893EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravetonDriver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GravetonDriver";
+			};
+			name = Debug;
+		};
+		A221618A29AC1762002893EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravetonDriver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GravetonDriver";
+			};
+			name = Release;
+		};
+		A221618C29AC1762002893EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GravetonDriver;
+			};
+			name = Debug;
+		};
+		A221618D29AC1762002893EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7NS7S5KL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fix.GravetonDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GravetonDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A221615629AC175F002893EC /* Build configuration list for PBXProject "GravetonDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221618329AC1762002893EC /* Debug */,
+				A221618429AC1762002893EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A221618529AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221618629AC1762002893EC /* Debug */,
+				A221618729AC1762002893EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A221618829AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221618929AC1762002893EC /* Debug */,
+				A221618A29AC1762002893EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A221618B29AC1762002893EC /* Build configuration list for PBXNativeTarget "GravetonDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221618C29AC1762002893EC /* Debug */,
+				A221618D29AC1762002893EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A221615329AC175F002893EC /* Project object */;
+}

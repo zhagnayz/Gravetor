@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>722048683137-o7ptq8gbaou0bgb9fnp774m372vnc1in.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.722048683137-o7ptq8gbaou0bgb9fnp774m372vnc1in</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDs01VtnDeSnin5AYyxGnfE-Y6JHNuPl9s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>722048683137</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.graveton.Graveton</string>
+	<key>PROJECT_ID</key>
+	<string>graveton-a4723</string>
+	<key>STORAGE_BUCKET</key>
+	<string>graveton-a4723.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:722048683137:ios:0e2314404d774e42f25180</string>
+	<key>DATABASE_URL</key>
+	<string>https://graveton-a4723-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
